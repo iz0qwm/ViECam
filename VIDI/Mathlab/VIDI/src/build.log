@@ -1,0 +1,164 @@
+MATLAB:I18n:InconsistentLocale - The system locale setting, Italiano (Italia)_Italia.1252, is different from the user locale setting, Inglese (Stati Uniti)_Stati Uniti.1252. 
+Compiler version: 4.9 (R2008b)  
+mcc -o 'VIDI' -W 'WinMain:VIDI' -d 'C:\VIDI\Matlab\VIDI\src' -T 'link:exe' -v 'C:\VIDI\Matlab\main.m'  
+Warning: Name is nonexistent or not a directory: 
+C:\Programmi\MATLAB\R2008b\toolbox\compiler\patch.  
+Warning: Name is nonexistent or not a directory: 
+C:\Programmi\MATLAB\R2008b\toolbox\compiler\patch.  
+Processing C:\Programmi\MATLAB\R2008b\toolbox\matlab\mcc.enc 
+Processing C:\Programmi\MATLAB\R2008b\toolbox\images\mcc.enc 
+Processing C:\Programmi\MATLAB\R2008b\toolbox\signal\mcc.enc 
+Processing C:\Programmi\MATLAB\R2008b\toolbox\shared\imageslib\mcc.enc 
+Processing include files... 
+2 item(s) added. 
+Processing directories installed with MCR... 
+The file C:\VIDI\Matlab\VIDI\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive. 
+3 item(s) added. 
+Generating MATLAB path for the compiled application... 
+Created 46 path items. 
+Begin validation of MEX files: Mon Nov 26 00:57:14 2012  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\applylutc.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\cq.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\ditherc.mexw32'.  
+Found M-file 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\ditherc.m'.  
+MEX file  
+    'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\ditherc.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\grayto8.mexw32'.  
+Found M-file 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\grayto8.m'.  
+MEX file  
+    'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\grayto8.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\imfilter_mex.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\imhistc.mexw32'.  
+Found M-file 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\imhistc.m'.  
+MEX file  
+    'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\imhistc.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\imlincombc.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\immultmex.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\imreconstructmex.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\ind2rgb8c.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\int16touint16.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\intlutc.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\parityscan.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\images\private\resizeColumnsCore.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptformats\private\bitparse.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptformats\private\dicom_decode_rle_segment.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptformats\private\dicomlookup_helper.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptformats\private\dicomparse.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptformats\private\tobits.mexw32'.  
+No conflicting M-file found.  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptutils\iptcheckinput.mexw32'.  
+Found M-file 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptutils\iptcheckinput.m'.  
+MEX file  
+    'C:\Programmi\MATLAB\R2008b\toolbox\images\iptutils\iptcheckinput.mexw32'  
+ is valid. It contains 'mexFunction.'  
+Validating 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptutils\private\iptregistry.mexw32'.  
+Found M-file 'C:\Programmi\MATLAB\R2008b\toolbox\images\iptutils\private\iptregistry.m'.  
+MEX file  
+    'C:\Programmi\MATLAB\R2008b\toolbox\images\iptutils\private\iptregistry.mexw32'  
+ is valid. It contains 'mexFunction.'  
+End validation of MEX files: Mon Nov 26 00:57:14 2012  
+Warning: Name is nonexistent or not a directory: 
+C:\Programmi\MATLAB\R2008b\toolbox\compiler\patch.  
+Deleting 22 temporary MEX authorization files.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_6471_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_17221_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_24029_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_5839_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_6778_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_27110_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_31369_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_24925_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_25181_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_32730_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_17177_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_28326_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_29394_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_24007_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_21164_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_15905_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_6920_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_28020_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_9723_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_27502_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_4777_2204.auth'.  
+Removing: 'C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp\mathworks_tmp_2204_10286_2204.auth'.  
+Parsing file "C:\VIDI\Matlab\main.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Programmi\MATLAB\R2008b\toolbox\compiler\deploy\deployprint.m" 
+	(Referenced from: "Compiler Command Line").  
+Parsing file "C:\Programmi\MATLAB\R2008b\toolbox\compiler\deploy\printdlg.m" 
+	(Referenced from: "Compiler Command Line").  
+Generating file "C:\VIDI\Matlab\VIDI\src\VIDI_main.c".  
+Generating file "C:\VIDI\Matlab\VIDI\src\VIDI_delay_load.c".  
+Generating file "C:\VIDI\Matlab\VIDI\src\readme.txt".  
+Generating file "C:\VIDI\Matlab\VIDI\src\VIDI_mcc_component_data.c".  
+Executing command: mbuild  -O -v -output "VIDI" -I"C:\VIDI\Matlab\VIDI\src" "C:\VIDI\Matlab\VIDI\src\VIDI_main.c" "C:\VIDI\Matlab\VIDI\src\VIDI_delay_load.c" "C:\VIDI\Matlab\VIDI\src\VIDI_mcc_component_data.c" -link exe  -env MCR_DELAYLOAD=/delayload:mclmcrrt79.dll -env MCR_DELAYLIB=delayimp.lib -outdir "C:\VIDI\Matlab\VIDI\src"  
+ This is mbuild Copyright 1984-2006 The MathWorks, Inc. 
+ 
+-> Default options filename found in C:\Documents and Settings\Administrator\Dati applicazioni\MathWorks\MATLAB\R2008b 
+---------------------------------------------------------------- 
+->    Options file           = C:\Documents and Settings\Administrator\Dati applicazioni\MathWorks\MATLAB\R2008b\compopts.bat 
+->    COMPILER               = lcc 
+->    Compiler flags: 
+         COMPFLAGS           = -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2008b\sys\lcc\include" -noregistrylookup 
+         OPTIMFLAGS          = -DNDEBUG 
+         DEBUGFLAGS          = -g4 
+         arguments           =  -IC:\VIDI\MATLAB\VIDI\SRC 
+         Name switch         = -Fo 
+->    Pre-linking commands   =  
+->    LINKER                 = lcclnk 
+->    Link directives: 
+         LINKFLAGS           = -tmpdir "C:\VIDI\MATLAB\VIDI\SRC\." -L"C:\PROGRA~1\MATLAB\R2008b\sys\lcc\lib" -libpath "C:\PROGRA~1\MATLAB\R2008b\extern\lib\win32\lcc" 
+         LINKFLAGSPOST       = mclmcrrt.lib 
+         Name directive      = -o "C:\VIDI\MATLAB\VIDI\SRC\VIDI.exe" 
+         File link directive =  
+         Lib. link directive =  
+         Rsp file indicator  = @ 
+->    Resource Compiler      =  
+->    Resource Linker        =  
+---------------------------------------------------------------- 
+ 
+ 
+--> lcc  -IC:\VIDI\MATLAB\VIDI\SRC -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2008b\sys\lcc\include" -noregistrylookup -FoC:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\VIDI_main.obj -IC:\PROGRA~1\MATLAB\R2008b\extern\include -IC:\PROGRA~1\MATLAB\R2008b\simulink\include -DNDEBUG C:\VIDI\MATLAB\VIDI\SRC\VIDI_main.c 
+ 
+ 
+--> lcc  -IC:\VIDI\MATLAB\VIDI\SRC -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2008b\sys\lcc\include" -noregistrylookup -FoC:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\VIDI_delay_load.obj -IC:\PROGRA~1\MATLAB\R2008b\extern\include -IC:\PROGRA~1\MATLAB\R2008b\simulink\include -DNDEBUG C:\VIDI\MATLAB\VIDI\SRC\VIDI_delay_load.c 
+ 
+Warning C:\VIDI\MATLAB\VIDI\SRC\VIDI_delay_load.c: 21  static `void function(void) FailedToLoadMCR' is not referenced 
+0 errors, 1 warnings 
+ 
+--> lcc  -IC:\VIDI\MATLAB\VIDI\SRC -c -Zp8 -I"C:\PROGRA~1\MATLAB\R2008b\sys\lcc\include" -noregistrylookup -FoC:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\VIDI_mcc_component_data.obj -IC:\PROGRA~1\MATLAB\R2008b\extern\include -IC:\PROGRA~1\MATLAB\R2008b\simulink\include -DNDEBUG C:\VIDI\MATLAB\VIDI\SRC\VIDI_mcc_component_data.c 
+ 
+    Contents of C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\mbuild_tmp.rsp: 
+  C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\VIDI_main.obj  C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\VIDI_delay_load.obj  C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\VIDI_mcc_component_data.obj 
+ 
+ 
+--> lcclnk -o "C:\VIDI\MATLAB\VIDI\SRC\VIDI.exe" -tmpdir "C:\VIDI\MATLAB\VIDI\SRC\." -L"C:\PROGRA~1\MATLAB\R2008b\sys\lcc\lib" -libpath "C:\PROGRA~1\MATLAB\R2008b\extern\lib\win32\lcc"  @C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\MBUILD~1.RSP  mclmcrrt.lib 
+ 
+Manually moving VIDI.exe to C:\VIDI\MATLAB\VIDI\SRC\VIDI.exe 
+Manually moving VIDI.lib to C:\VIDI\MATLAB\VIDI\SRC\VIDI.lib 
+Manually moving VIDI.exp to C:\VIDI\MATLAB\VIDI\SRC\VIDI.exp 
+ 
+--> "if exist C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\templib.def del C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\templib.def" 
+ 
+ 
+--> "if exist C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\templib_stub.obj del C:\DOCUME~1\ADMINI~1\IMPOST~1\TEMP\MBUILD~1\templib_stub.obj" 
+ 

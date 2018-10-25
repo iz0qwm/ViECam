@@ -1,0 +1,115 @@
+; 
+; File di configurazione dei valori di offset e gain
+; per gli algoritmi di visibilità
+;
+; Per effettuare la prima installazione ricordarsi di mettere
+; a 1 tutti i valori di gain delle varie codizioni di tempo presente
+; e modificarli solo dopo aver regolato i valori degli algoritmi degli edges
+;
+;
+; SEZIONE ALGORITMI RILEVAMENTO EDGES
+;
+[comparison]
+; Tolleranza per la ricerca dei target nelle immagini
+;tollerance_comparison=8.99
+tollerance_comparison=8
+;
+[vismax]
+; Massima visibilità
+;rel_vis_max<off_vismax_max
+;
+gain_vismax=1.3333333
+off_vismax_max=15010; Settato il 30-1-2012
+;
+[visgood]
+; Buona visibilità. I target lontani sono visibili
+;rel_vis_max<off_visgood_max
+;
+gain_visgood=1
+off_visgood_max=14890; Settato il 30-1-2012
+;
+[viscover]
+; Visibilità buona ma con cielo coperto di strati. Sono ancora visibili i target lontani
+;rel_vis_max<off_viscover_max
+;
+gain_viscover=1; Settato il 30-1-2012
+off_viscover_max=14750; Settato il 30-1-2012
+;
+[vismist]
+; Foschia
+;rel_vis_max<off_vismist_max
+;
+gain_vismist=1.21; Settato il 30-1-2012
+off_vismist_max=10000; Settato il 30-1-2012
+;
+[visfog]
+; Nebbia 
+;rel_vis_max<off_visfog_max
+;
+gain_visfog=0.96; Settato il 30-1-2012
+off_visfog_max=4800; Settato il 30-1-2012
+;
+[visallfog]
+; Nebbia fitta
+;rel_vis_max<off_visallfog_max
+;
+gain_visallfog=1
+off_visallfog_max=4500
+;
+; SEZIONE ALGORITMI TEMPO PRESENTE
+;
+[coloricielo]
+;
+; Valori RGB entro cui oscilla il colore BLU in una giornata di bel tempo
+;
+lowBlueR=17
+highBlueR=168
+lowBlueG=85
+highBlueG=205
+lowBlueB=150
+highBlueB=224
+;
+; Valori RGB entro cui oscilla il colore WHITE in una giornata di bel tempo
+;
+lowWhiteR=215
+highWhiteR=254
+lowWhiteG=219
+highWhiteG=254
+lowWhiteB=220
+highWhiteB=254
+;
+[tempopresente]
+;
+sunny_sky_gain_vismax=1
+sunny_sky_gain_visgood=1.11
+;
+clear_sky_gain_vismax=1
+clear_sky_gain_visgood=1.11; Settato il 30-1-2012
+;
+partly_cloudy_gain_vismax=0.9; Settato il 30-1-2012
+partly_cloudy_gain_visgood=1.11; Settato il 30-1-2012
+partly_cloudy_gain_viscover=1.11; Settato il 30-1-2012
+;
+cloudy_gain_vismax=0.9; Settato il 30-1-2012
+cloudy_gain_visgood=1.11; Settato il 30-1-2012
+cloudy_gain_viscover=1.11; Settato il 30-1-2012
+cloudy_gain_vismist=1.9; Settato il 30-1-2012
+;
+broken_clouds_gain_vismax=0.4
+broken_clouds_gain_visgood=0.5
+broken_clouds_gain_viscover=1
+broken_clouds_gain_vismist=1.5; Settato il 30-1-2012
+;
+overcast_gain_visgood=1.1; Settato il 30-1-2012
+overcast_gain_viscover=1.1; Settato il 30-1-2012
+overcast_gain_vismist=1.2; Settato il 30-1-2012
+;
+fog_gain_vismist=1
+fog_gain_visallfog=1
+fog_gain_visfog=1
+;
+mist_gain_visgood=1.1; Settato il 30-1-2012
+mist_gain_viscover=0.65; Settato il 30-1-2012
+mist_gain_vismist=1.5; Settato il 30-1-2012
+mist_gain_visfog=1
+;

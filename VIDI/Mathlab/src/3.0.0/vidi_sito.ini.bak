@@ -1,0 +1,96 @@
+;
+; DEFINIZIONE VARIABILI DEL SITO
+;
+; Definizione delle distanze dei target
+;
+[Sezione1]
+; 
+Target1=30
+Target2_1=2000
+Target2_2=2000
+Target3_1=5000
+Target3_2=5000
+Target3_3=5000
+Target4_1=15000
+Target4_2=15000
+Target4_3=15000
+;
+; Intestazione: sono le lettere che identificano il luogo in cui è situato
+; il sistema
+;
+intestazione=KWS
+;
+; Latitudine e Longitudine in gradi decimali
+;
+latitude=42.168
+longitude=12.786
+;
+; Ore di differenza GMT
+;
+GMT=1
+;
+; Immagine corrente
+;
+;immagine_corrente=Z:\kwoscam.jpg
+immagine_corrente=C:\VIDI\DATA\current.jpg
+;
+; Sfondo della pagina Web. Questa impostazione modifica il file
+; visibility.txt da inviare sul sito Web. Valori possibili: nero o bianco
+;
+sfondo=bianco
+;
+; Tipo banner web su cui inviare il valore di visibilità. Valori possibili:
+; applet o testo
+;
+banner=testo
+;
+; Controllo tempo presente
+;
+check_tempopresente=1
+;
+; Coordinate del cielo. Utilizzare l'utility cielo per cercare il cielo
+; nell'immagine di riferimento. Impostare solo se check_tempopresente=1
+;
+coord_cielo_x_vertice=50
+coord_cielo_y_vertice=20
+coord_cielo_larghezza=830
+coord_cielo_altezza=600
+;
+; Controllo offuscamento target
+;
+check_offuscamento=1
+;
+; Segue coordinate dei target
+; Impostare solo se check_offuscamento=1
+; 
+; Coordinate del target1
+;
+coord_target1_x_vertice=410
+coord_target1_y_vertice=540
+coord_target1_larghezza=130
+coord_target1_altezza=150
+; 
+; Coordinate del target2
+;
+coord_target2_x_vertice=150
+coord_target2_y_vertice=630
+coord_target2_larghezza=100
+coord_target2_altezza=90
+; 
+; Coordinate del target3
+;
+coord_target3_x_vertice=790
+coord_target3_y_vertice=530
+coord_target3_larghezza=200
+coord_target3_altezza=130
+; 
+; Coordinate del target4
+;
+coord_target4_x_vertice=360
+coord_target4_y_vertice=650
+coord_target4_larghezza=60
+coord_target4_altezza=50
+;
+;
+; FINE: DEFINIZIONE VARIABILI DEL SITO
+;
